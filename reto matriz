@@ -1,0 +1,58 @@
+Algoritmo
+
+	definir matriz,f,c,sumaedad, sumamujeres Como Entero
+  
+	Dimension matriz[7,4]
+  
+	Para f<-1 hasta 7 con paso 1 Hacer
+  
+		Para c<-1 hasta 4 con paso 1 Hacer
+    
+			Escribir "Ingrese celda", f, " ", c
+      
+			Leer matriz(f,c)
+      
+		FinPara
+    
+	FinPara
+  
+	
+	Para f<- 1 hasta 7 con paso 1 Hacer
+  
+			Escribir matriz[f,1]," ",matriz[f,2], " " matriz[f,3]," ", matriz[f,4]
+      
+	Finpara
+  
+	sumaedad<-0
+  
+	Para e<-1 hasta 7 Hacer
+  
+		sumaedad<- sumaedad + matriz[e,3]
+    
+	FinPara
+  
+	Escribir sin saltar "El promedio de edad es: "
+  
+	Escribir sumaedad/7
+	
+	Sumamujeres<-0
+  
+	para m<- 1 hasta 7 Hacer
+  
+	Si matriz[m,4]=1  Entonces
+  
+		sumamujeres<- sumamujeres+1
+    
+	SiNo
+  
+		sumamujeres<- sumamujeres+0
+    
+	Fin Si
+  
+	Finpara
+  
+	Escribir sin saltar "El porcentaje de mujeres es: "
+  
+	Escribir sumamujeres/7
+  
+FinAlgoritmo
