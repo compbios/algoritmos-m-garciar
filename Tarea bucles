@@ -1,0 +1,39 @@
+Algoritmo Numero mayor
+	Definir a, b Como Entero
+	Escribir "Digite un número"
+	Leer A
+	Escribir "Digite otro número"
+	Leer B
+	Si A>b Entonces
+		Escribir A
+	SiNo
+		Escribir B
+	Fin Si
+	
+FinAlgoritmo
+
+Vocales
+Algoritmo sin_titulo
+	Definir a,e,i,u Como Caracter
+	Escribir " escriba una letra"
+	Leer x
+	Si x = "a" o x = "e" o x = "i" o x="u" o x = "o" Entonces
+		Escribir "Es una vocal"
+	SiNo
+		Escribir " No es una vocal"
+	Fin Si
+	
+FinAlgoritmo
+ 
+Algoritmo factorial
+
+Algoritmo sin_titulo
+	Definir n, f,i Como Entero
+	f<-1
+	Escribir"Escriba un número"
+	Leer n
+	Para i<-1 Hasta n Con Paso 1 Hacer
+		f<- f*i
+	Fin Para
+	Escribir f
+FinAlgoritmo
